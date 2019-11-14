@@ -92,5 +92,36 @@ body {
 .tabset {
     max-width: 65em;
 }
+/*
+ Social media
+*/
+.socialMedia{
+    display: flex;
+
+}
+.socialMedia div{
+     margin: 0 auto;
+ }
+.facebook,.instagram,.telegram,.whatsapp{
+    transition: .3s;
 
 
+}
+.facebook:hover,.instagram:hover,.telegram:hover,.whatsapp:hover{
+    padding: 2px;
+
+
+}
+.facebook{
+    fill: #4267B2;
+
+}
+.whatsapp{
+    fill: #25D366;
+}
+.instagram{
+    fill: #e4405f;
+}
+.telegram{
+    fill: #5682A3;
+}
