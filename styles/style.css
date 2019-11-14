@@ -113,7 +113,7 @@ body {
 
 
 }
-.facebook:hover,.instagram:hover,.telegram:hover,.whatsapp:hover{
+.facebook:hover,.instagram:hover,.telegram:hover,.whatsapp:hover,.email:hover,.phone:hover{
     padding: 2px;
 
 
@@ -130,4 +130,12 @@ body {
 }
 .telegram{
     fill: #5682A3;
+}
+
+.email{
+    fill: #005B8D;
+}
+
+.phone{
+    fill:#148C14;
 }
