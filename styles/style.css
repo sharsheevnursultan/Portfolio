@@ -17,6 +17,7 @@ body {
 
 .tabset .tab-panel {
     display: none;
+
 }
 
 .tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
@@ -39,12 +40,13 @@ body {
     display: inline-block;
     padding: 15px 15px 25px;
     border: 1px solid transparent;
-    border-bottom: 0;
     cursor: pointer;
     font-weight: 600;
     color: #fff;
 }
-
+.tabset{
+    border: 1px solid transparent;
+}
 .tabset > label::after {
     content: "";
     position: absolute;
@@ -150,7 +152,7 @@ body {
 }
 
 .contacts {
-    overflow: scroll;
+    overflow: hidden;
     display: flex;
     align-items: center;
     align-content: center;
@@ -161,8 +163,13 @@ body {
     border-radius: 5px;
 }
 
-.contacts:hover, .facebook:hover, .instagram:hover, .telegram:hover, .whatsapp:hover, .email:hover, .phone:hover {
-
+.contacts:hover,
+.facebook:hover,
+.instagram:hover,
+.telegram:hover,
+.whatsapp:hover,
+.email:hover,
+.phone:hover {
     border-color: #06c;
 }
 
