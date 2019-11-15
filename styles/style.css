@@ -70,15 +70,13 @@ body {
 }
 
 .tabset > input:checked + label {
-    border-color: #ccc;
-    border-bottom: 1px solid #fff;
-    margin-bottom: -1px;
+    border: 1px solid #fff;
+
 
 }
 
 .tab-panel {
     padding: 30px 0;
-    border-top: 1px solid #ccc;
     color: #fff;
 }
 
@@ -91,9 +89,6 @@ body {
     box-sizing: border-box;
 }
 
-body {
-    padding: 30px;
-}
 
 .tabset {
     max-width: 65em;
@@ -118,7 +113,12 @@ body {
 }
 
 
-.facebook, .instagram, .telegram, .whatsapp, .email, .phone {
+.facebook,
+.instagram,
+.telegram,
+.whatsapp,
+.email,
+.phone {
     transition: .3s;
 
 
@@ -150,6 +150,7 @@ body {
 }
 
 .contacts {
+    overflow: scroll;
     display: flex;
     align-items: center;
     align-content: center;
