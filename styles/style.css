@@ -1,6 +1,6 @@
 body {
     background: #2C303C;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: Montserrat,sans-serif;
     font-size: 100%;
     margin: 0;
     padding: 0;
@@ -98,44 +98,73 @@ body {
 .tabset {
     max-width: 65em;
 }
+
 /*
  Social media
 */
-.socialMedia{
+.socialMedia {
     display: flex;
+    flex-flow: column;
 
 }
-.socialMedia div{
-     margin: 0 auto;
- }
-.facebook,.instagram,.telegram,.whatsapp,.email,.phone{
+
+.socialMedia a {
+    color: white;
+}
+
+.socialMedia a:hover {
+    color: #06c;
+    text-decoration: #06c;
+}
+
+
+.facebook, .instagram, .telegram, .whatsapp, .email, .phone {
     transition: .3s;
 
 
 }
-.facebook:hover,.instagram:hover,.telegram:hover,.whatsapp:hover,.email:hover,.phone:hover{
-    padding: 2px;
 
-
-}
-.facebook{
+.facebook {
     fill: #4267B2;
 
 }
-.whatsapp{
+
+.whatsapp {
     fill: #25D366;
 }
-.instagram{
+
+.instagram {
     fill: #e4405f;
 }
-.telegram{
+
+.telegram {
     fill: #5682A3;
 }
 
-.email{
+.email {
     fill: #005B8D;
 }
 
-.phone{
-    fill:#148C14;
+.phone {
+    fill: #148C14;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 12px;
+    padding: 10px;
+    transition: .3s;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.contacts:hover, .facebook:hover, .instagram:hover, .telegram:hover, .whatsapp:hover, .email:hover, .phone:hover {
+
+    border-color: #06c;
+}
+
+.contacts h6 {
+    margin: 0  0 0 10px;
 }
