@@ -1,7 +1,6 @@
 body {
     background: #2C303C;
     font-family: Montserrat, sans-serif;
-    font-size: 100%;
     margin: 0;
     padding: 0;
 }
@@ -46,6 +45,7 @@ body {
 
 .tabset {
     border: 1px solid transparent;
+    padding-top: 2em;
 }
 
 .tabset > label::after {
@@ -90,10 +90,8 @@ body {
     box-sizing: border-box;
 }
 
-.tabset {
-    padding-top: 2em;
-    /*max-width: 65em;*/
-}
+
+
 
 /*
  Social media
