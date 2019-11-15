@@ -72,8 +72,8 @@ body {
 }
 
 .tabset > input:checked + label {
-    border: 1px solid #fff;
-
+    border: 1px solid #06C;
+    color: #06C;
 }
 
 .tab-panel {
@@ -89,8 +89,6 @@ body {
 *:after {
     box-sizing: border-box;
 }
-
-
 
 
 /*
