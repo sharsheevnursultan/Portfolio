@@ -45,7 +45,7 @@ body {
 
 .tabset {
     border: 1px solid transparent;
-    padding-top: 2em;
+    margin-top: 2em;
 }
 
 .tabset > label::after {
