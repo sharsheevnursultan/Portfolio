@@ -159,6 +159,17 @@ body {
     fill: #E44D26;
 }
 
+.css3{
+    fill:#1B73BA ;
+}
+.svg{
+    fill: #fff;
+}
+
+.cloudDownload{
+    fill: #2EC6F8;
+}
+
 .contacts ,.skills{
     overflow: hidden;
     display: flex;
