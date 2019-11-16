@@ -4,7 +4,18 @@ body {
     margin: 0;
     padding: 0;
 }
+::-webkit-scrollbar {
+    width:  10px;
 
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+::-webkit-scrollbar-track {
+    background:transparent;
+}
 /*
  CSS for the main interaction
 */
@@ -144,12 +155,16 @@ body {
     fill: #148C14;
 }
 
-.contacts {
+.html5{
+    fill: #E44D26;
+}
+
+.contacts ,.skills{
     overflow: hidden;
     display: flex;
     align-items: center;
     align-content: center;
-    margin: 12px 0;
+    margin: 0 0 12px 0;
     padding: 10px;
     transition: .3s;
     border: 1px solid #fff;
@@ -166,6 +181,9 @@ body {
     border-color: #06c;
 }
 
-.contacts h6 {
+.contacts h6,.skills h6 {
     margin: 0 0 0 10px;
 }
+
+
+
