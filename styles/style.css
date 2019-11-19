@@ -55,6 +55,7 @@ body {
 }
 
 .tabset {
+    text-align: center;
     border: 1px solid transparent;
     margin-top: 2em;
 }
